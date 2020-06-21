@@ -5,7 +5,7 @@ import boat from '../images/img.jpg'
 
 const Styles= styled.div`
 .jumbo {
-    background: url(${boat}) no-repeat fixed botton;
+    background-image: url(${boat}) no-repeat fixed botton;
     background-size: cover;
     color: #62cf71;
     position: relative;
@@ -29,7 +29,7 @@ const Jumbotron = () => {
             <Jumbo fluid className="jumbo">
                 <div className="overlay"></div>
                 <Container>
-                    
+                    <h1>Bienvenue</h1>
                     <p>Nos objectifs</p>
                 </Container>
             </Jumbo>

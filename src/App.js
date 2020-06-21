@@ -10,7 +10,7 @@ import Layout from './components/Layout'
 import NavigationBar from './components/Navbar'
 import  Jumbotron  from './components/Jumbotron';
 import Footer from './components/Footer';
-import CarouselImg from './components/Carousel'
+
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
        <Route  path="/signin" component= {Signin} />
        <Route  path="/signup" component= {SignUp} />
     </Switch>
-    <CarouselImg />
+    
     <br />
     <br />
     <Footer />
